@@ -1,0 +1,138 @@
+# depslib dependency file v1.0
+1526117849 source:c:\users\aziz\desktop\sudoku\main.cpp
+	<iostream>
+	<cstdlib>
+	"grille.h"
+	"homme.h"
+	"joueur.h"
+	"gerer.h"
+	"machine.h"
+	"machine1.h"
+	"machine2.h"
+	"machine3.h"
+	"machine4.h"
+	"manuel.h"
+	"automatique.h"
+	"generateur.h"
+	<utility>
+	<string>
+
+1525969593 source:c:\users\aziz\desktop\sudoku\grille.cpp
+	<iostream>
+	"grille.h"
+	<windows.h>
+
+1526118074 c:\users\aziz\desktop\sudoku\grille.h
+	<iostream>
+
+1525823605 source:c:\users\aziz\desktop\sudoku\gerer.cpp
+	<iostream>
+	<fstream>
+	"grille.h"
+	"gerer.h"
+	<string>
+	<ctime>
+	<cstdlib>
+
+1525644738 c:\users\aziz\desktop\sudoku\gerer.h
+
+1525537521 source:c:\users\aziz\desktop\sudoku\joueur.cpp
+	<iostream>
+	"joueur.h"
+
+1525722350 c:\users\aziz\desktop\sudoku\joueur.h
+	"grille.h"
+
+1526119301 source:c:\users\aziz\desktop\sudoku\machine.cpp
+	<iostream>
+	<string>
+	"machine.h"
+	"grille.h"
+	<deque>
+	<windows.h>
+
+1526114610 source:c:\users\aziz\desktop\sudoku\homme.cpp
+	<iostream>
+	"homme.h"
+	<windows.h>
+
+1525722368 c:\users\aziz\desktop\sudoku\homme.h
+	"joueur.h"
+
+1526119111 c:\users\aziz\desktop\sudoku\machine.h
+	<deque>
+	"joueur.h"
+	"grille.h"
+
+1526118418 c:\users\aziz\desktop\sudoku\machine2.h
+	"machine.h"
+
+1526115801 source:c:\users\aziz\desktop\sudoku\machine2.cpp
+	<iostream>
+	"machine.h"
+	"grille.h"
+	"machine2.h"
+
+1525760580 source:c:\users\aziz\desktop\sudoku\machine3.cpp
+	<iostream>
+	"machine3.h"
+	"joueur.h"
+
+1526118280 c:\users\aziz\desktop\sudoku\machine3.h
+	"machine.h"
+	<vector>
+	<iterator>
+
+1526118519 c:\users\aziz\desktop\sudoku\machine4.h
+	"machine.h"
+	<vector>
+	<iterator>
+	<iostream>
+
+1526070095 source:c:\users\aziz\desktop\sudoku\machine4.cpp
+	<iostream>
+	"machine4.h"
+	"joueur.h"
+	<vector>
+
+1525833197 source:c:\users\aziz\desktop\sudoku\machine1.cpp
+	<iostream>
+	<deque>
+	<iterator>
+	"machine1.h"
+	"grille.h"
+	<utility>
+
+1526118519 c:\users\aziz\desktop\sudoku\machine1.h
+	"machine.h"
+	<deque>
+	<iterator>
+
+1525535380 source:c:\users\aziz\desktop\sudoku\src\joueur.cpp
+
+1525538103 c:\users\aziz\desktop\sudoku\include\joueur.h
+
+1525824088 source:c:\users\aziz\desktop\sudoku\manuel.cpp
+	<iostream>
+	"manuel.h"
+
+1525644412 c:\users\aziz\desktop\sudoku\manuel.h
+	"generateur.h"
+
+1525644412 c:\users\aziz\desktop\sudoku\generateur.h
+	"grille.h"
+
+1526075190 c:\users\aziz\desktop\sudoku\automatique.h
+	"generateur.h"
+
+1526074033 source:c:\users\aziz\desktop\sudoku\automatique.cpp
+	<iostream>
+	<fstream>
+	"grille.h"
+	"gerer.h"
+	<string>
+	<ctime>
+	<cstdlib>
+	"automatique.h"
+	"machine4.h"
+
